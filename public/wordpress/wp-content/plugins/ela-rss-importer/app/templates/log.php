@@ -1,5 +1,5 @@
 <div class="wrap">
-	<h2><?php _e("Rss Post Importer Log", 'rss_pi'); ?></h2>
+	<h2><?php _e("ELA RSS Post Importer Log", 'rss_pi'); ?></h2>
 	<div id="poststuff">
 		<div id="post-body" class="metabox-holder columns-2">
 			<div id="postbox-container-2" class="postbox-container">
