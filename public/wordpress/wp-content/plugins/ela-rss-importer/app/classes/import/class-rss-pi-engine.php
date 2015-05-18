@@ -111,9 +111,20 @@ class rssPIEngine {
 	 * @return array
 	 */
 	public function prepare_import($f) {
-
+/*
 		$args = array(
 			'feed_title' => $f['name'],
+			'max_posts' => $f['max_posts'],
+			'author_id' => $f['author_id'],
+			'category_id' => $f['category_id'],
+			'tags_id' => $f['tags_id'],
+			'keywords' => isset($f['keywords']) && is_array($f['keywords']) ? $f['keywords'] : array(),
+			'strip_html' => $f['strip_html'],
+			'save_to_db' => true
+		);
+ */
+		$args = array(
+			'feed_title' => 'Elder Law Answers RSS Feed',
 			'max_posts' => $f['max_posts'],
 			'author_id' => $f['author_id'],
 			'category_id' => $f['category_id'],

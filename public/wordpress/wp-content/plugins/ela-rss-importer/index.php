@@ -35,7 +35,7 @@ if (!defined('ELA_RSS_PI_VERSION')) {
 }
 
 if (!defined('RSS_PI_LOG_PATH')) {
-	define('RSS_PI_LOG_PATH', trailingslashit(WP_CONTENT_DIR) . 'rsspi-log/');
+	define('RSS_PI_LOG_PATH', trailingslashit(WP_CONTENT_DIR) . 'ela-rss-pi-log/');
 }
 
 if (!is_dir(RSS_PI_LOG_PATH)) {

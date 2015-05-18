@@ -61,6 +61,9 @@ define('NONCE_SALT',       'xq{Jpji{I5`g-Owkw|qDb%Pm(>~?eA_*O+@^w[@@mw~gjpSum)S&
  */
 $table_prefix  = 'wp_';
 
+define('WP_HOME','http://192.168.33.99');
+define('WP_SITEURL','http://192.168.33.99');
+
 /**
  * For developers: WordPress debugging mode.
  *
