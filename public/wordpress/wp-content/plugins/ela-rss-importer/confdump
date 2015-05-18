@@ -1,0 +1,10 @@
+if [ -n "$SSH_CLIENT" ]; 
+    then text=" SSH";
+else
+    text=" LOCAL";
+fi
+export PS1='\[\e[1;32m\]\u@\h:\w${text}$\[\e[m\] '
+
+
+
+nnoremap \e :NERDTreeToggle<CR>
