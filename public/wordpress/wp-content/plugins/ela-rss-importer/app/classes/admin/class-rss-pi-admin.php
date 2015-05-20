@@ -118,7 +118,7 @@ class rssPIAdmin {
 	 */
 	function admin_menu() {
 
-		add_options_page('Rss Post Importer', 'Rss Post Importer', 'manage_options', 'rss_pi', array($this, 'screen'));
+		add_options_page('ELA Post Importer', 'ELA Post Importer', 'manage_options', 'rss_pi', array($this, 'screen'));
 	}
 
 	/**
